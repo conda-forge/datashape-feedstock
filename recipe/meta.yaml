@@ -32,7 +32,7 @@ test:
     - datashape.util
 
   requires:
-    - pytest
+    - pytest <4
     - mock
 
   commands:
