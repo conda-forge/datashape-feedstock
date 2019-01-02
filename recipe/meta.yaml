@@ -30,9 +30,9 @@ test:
     - datashape
     - datashape.tests
     - datashape.util
-
   requires:
-    - pytest
+    # Applying marks to values of a pytest.mark.parametrize call is now deprecated since 3.2
+    - pytest <3.2
     - mock
 
   commands:
