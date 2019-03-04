@@ -5,7 +5,7 @@
 About datashape
 ===============
 
-Home: http://datashape.readthedocs.org/en/latest/
+Home: http://datashape.pydata.org
 
 Package license: BSD-2-Clause
 
@@ -13,6 +13,9 @@ Feedstock license: BSD 3-Clause
 
 Summary: A data description language
 
+Datashape is a data layout language for array programming.
+It is designed to describe in-situ structured data without requiring
+transformation into a canonical form.
 
 
 Current build status
